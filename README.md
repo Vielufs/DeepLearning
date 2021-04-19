@@ -51,10 +51,11 @@ Finally, use the testing data to evaluate each model and compare the performance
 Use the above to answer the following:
 
 > Which model has a lower loss?
->
+>>The lstm model using closing price to predict has a lower loss.
 > Which model tracks the actual values better over time?
->
+>>The lstm omdel that predicts using the close price tracks it better over time
 > Which window size works best for the model?
+>> I used a window size of 9 and it turned out good results for me compared to 1,5,6,7,10. 
 
 - - -
 
